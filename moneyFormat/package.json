@@ -1,0 +1,22 @@
+{
+  "name": "moneyformat",
+  "version": "1.0.0",
+  "description": "a mini app for converting integer cash to polish string",
+  "main": "moneyFormat.js",
+  "dependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MonsteraDeliciosa",
+  "license": "ISC"
+}
