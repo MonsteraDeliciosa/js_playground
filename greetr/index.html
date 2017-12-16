@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Greetr prototypes playground</title>
+    </head>
+    <body>
+        <main>
+            <div id="loginDiv">
+                <label for="firstname">First name:</label>
+                <input type="text" id="firstname"><br>
+                <label for="firstname">Last name:</label>
+                <input type="text" id="lastname"><br>
+                <label for="lang">Choose language:</label>
+                <select id="lang">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                </select>
+                <br>
+                <label for="formality">Formality:</label>
+                <select id="formality">
+                    <option value="formal">formal</option>
+                    <option value="informal">informal</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <button type="button" value="generate greeting" id="run">generate greeting</button>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h1 id="greeting">test</h1>
+        </main>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+        <script src="Greetr.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
