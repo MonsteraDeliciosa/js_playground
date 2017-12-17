@@ -26,7 +26,18 @@ export const SEVERALS = {
 
 export const TENS = {
     0: null,
-    1: null,
+    1: {
+        0: 'dziesięć',
+        1: 'jedenaście',
+        2: 'dwanaście',
+        3: 'trzynaście',
+        4: 'czternaście',
+        5: 'piętnaście',
+        6: 'szesnaście',
+        7: 'siedemnaście',
+        8: 'osiemnaście',
+        9: 'dziewiętnaście'
+    },
     2: 'dwadzieścia',
     3: 'trzydzieści',
     4: 'czterdzieści',
